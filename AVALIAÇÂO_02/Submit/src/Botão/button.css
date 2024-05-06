@@ -1,0 +1,26 @@
+.buttons{
+    border-radius: 78px;
+    width:  60px;
+    height: 60px;
+    font-size: 17px;
+    background-color: rgb(40, 44, 49);
+    color: hsl(216, 12%, 54%);
+    border: none;
+   margin: 11px;
+   cursor: pointer;
+   margin-top: 20px;
+}
+.submit:hover{
+    background-color: white;
+    color:hsl(25, 97%, 53%);
+}
+.buttons:hover{
+    color: white;
+    background-color:hsl(25, 97%, 53%) ;
+}
+@media screen and (max-width: 768px) {
+    .buttons {
+     width: 45px;
+     height: 45px;
+    }
+}
